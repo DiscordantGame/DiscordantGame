@@ -1,0 +1,5 @@
+site_name: Discordant
+
+pages:
+  - Home: index.md
+  - Commands: commands.md

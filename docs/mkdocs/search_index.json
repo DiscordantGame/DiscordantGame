@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Discordant Wiki\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Home"
+        },
+        {
+            "location": "/#discordant-wiki",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Discordant Wiki"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/commands/",
+            "text": "General Commands\n\n\nStats\n\n\nView your own stats\n\n\ndstats\n\n\n\nView another player's stats\n\n\ndstats @username\n\n\n\n\n\nBegin\n\n\nCreate a new character\n\n\ndbegin <class>\n\n\n\nNote: classes can be found with \ndclasses\n\n\n\n\nClasses\n\n\nList available classes or get info about a starting class\n\n\ndclass [class]\n\n\n\n\n\nHelp\n\n\nList commands or get help with a command\n\n\ndhelp [command]\n\n\n\n\n\nItem Management\n\n\nInventory\n\n\nAliases: \ndinv\n\n\nView your inventory\n\n\ndinventory\n\n\n\nBattle\n\n\nitem\ngive\ninventory\nequip\nunequip\n\n\nchallenge\nattack\noffhand\nblock\nuse\n\n\nmarketnew\nmarketsearch \nmarketsell \nmarketstop \n\n\npartyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew\n\n\nAdmin\n\n\nlockdown\nwishcalc\ngrant\nrestart\nsetbotstatus\nsetrole",
+            "title": "Commands"
+        },
+        {
+            "location": "/commands/#general-commands",
+            "text": "",
+            "title": "General Commands"
+        },
+        {
+            "location": "/commands/#stats",
+            "text": "View your own stats  dstats  View another player's stats  dstats @username",
+            "title": "Stats"
+        },
+        {
+            "location": "/commands/#begin",
+            "text": "Create a new character  dbegin <class>  Note: classes can be found with  dclasses",
+            "title": "Begin"
+        },
+        {
+            "location": "/commands/#classes",
+            "text": "List available classes or get info about a starting class  dclass [class]",
+            "title": "Classes"
+        },
+        {
+            "location": "/commands/#help",
+            "text": "List commands or get help with a command  dhelp [command]",
+            "title": "Help"
+        },
+        {
+            "location": "/commands/#item-management",
+            "text": "",
+            "title": "Item Management"
+        },
+        {
+            "location": "/commands/#inventory",
+            "text": "Aliases:  dinv  View your inventory  dinventory",
+            "title": "Inventory"
+        },
+        {
+            "location": "/commands/#battle",
+            "text": "item\ngive\ninventory\nequip\nunequip  challenge\nattack\noffhand\nblock\nuse  marketnew\nmarketsearch \nmarketsell \nmarketstop   partyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
+            "title": "Battle"
+        },
+        {
+            "location": "/commands/#admin",
+            "text": "lockdown\nwishcalc\ngrant\nrestart\nsetbotstatus\nsetrole",
+            "title": "Admin"
+        }
+    ]
+}
