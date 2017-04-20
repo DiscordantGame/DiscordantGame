@@ -2,27 +2,17 @@
     "docs": [
         {
             "location": "/",
-            "text": "Discordant Wiki\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Discordant\n\n\nIn progress",
             "title": "Home"
         },
         {
-            "location": "/#discordant-wiki",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Discordant Wiki"
-        },
-        {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
-        },
-        {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#discordant",
+            "text": "In progress",
+            "title": "Discordant"
         },
         {
             "location": "/commands/",
-            "text": "General Commands\n\n\nStats\n\n\nView your own stats\n\n\ndstats\n\n\n\nView another player's stats\n\n\ndstats @username\n\n\n\n\n\nBegin\n\n\nCreate a new character\n\n\ndbegin <class>\n\n\n\nNote: classes can be found with \ndclasses\n\n\n\n\nClasses\n\n\nList available classes or get info about a starting class\n\n\ndclass [class]\n\n\n\n\n\nHelp\n\n\nList commands or get help with a command\n\n\ndhelp [command]\n\n\n\n\n\nItem Management\n\n\nInventory\n\n\nAliases: \ndinv\n\n\nView your inventory\n\n\ndinventory\n\n\n\nBattle\n\n\nitem\ngive\ninventory\nequip\nunequip\n\n\nchallenge\nattack\noffhand\nblock\nuse\n\n\nmarketnew\nmarketsearch \nmarketsell \nmarketstop \n\n\npartyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew\n\n\nAdmin\n\n\nlockdown\nwishcalc\ngrant\nrestart\nsetbotstatus\nsetrole",
+            "text": "General Commands\n\n\nstats\n\n\nView your own stats\n\n\ndstats\n\n\n\nView another player's stats\n\n\ndstats @player\n\n\n\n\n\nbegin\n\n\nCreate a new character\n\n\ndbegin <class>\n\n\n\nClasses can be found with \ndclasses\n\n\n\n\nclasses\n\n\nList available classes or get info about a starting class\n\n\ndclass [class]\n\n\n\n\n\nhelp\n\n\nList commands or get help with a command\n\n\ndhelp [command]\n\n\n\n\n\nInventory Management\n\n\ninv\n\n\nView your inventory\n\n\ndinv\n\n\n\n\n\nitem\n\n\nGet information about an item\n\n\nditem <item name>\n\n\n\n\n\ngive\n\n\nDonate item to another player\n\n\ndgive @player <item name> <#amount>\n\n\n\nDonate gold to another player\n\n\ndgive @player gold <#amount>\n\n\n\n\n\nuse\n\n\nUse an item\n\n\nduse <item name>\n\n\n\n\n\nequip\n\n\nEquip an item\n\n\ndequip <item name>\n\n\n\nEquip a weapon to your offhand slot\n\n\ndequip <item name> offhand\n\n\n\n\n\nunequip\n\n\nUnequip an item from a slot\n\n\nunequip <armor|hat|belt|bracer|amulet|ring|weapon|offhand>\n\n\n\n\n\nBattle\n\n\nchallenge\n\n\nChallenge another player to a duel\n\n\ndchallenge @player\n\n\n\nRespond to a challenge\n\n\ndchallenge <accept|decline>\n\n\n\n\n\nattack\n\n\nAttack using your weapon's default attack\n\n\ndattack\n\n\n\nAttack using a specific attack\n\n\ndattack [attack name]\n\n\n\n\n\noffhand\n\n\nAttack using your offhand weapon's default attack\n\n\ndoffhand\n\n\n\nAttack using a specific offhand weapon attack\n\n\ndoffhand [attack name]\n\n\n\n\n\nblock\n\n\nBlock until you take another action\n\n\ndblock\n\n\n\nNote: Each weapon has a block amount, shields have the most\n\n\n\n\nmarketnew\nmarketsearch \nmarketsell \nmarketstop \n\n\npartyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
             "title": "Commands"
         },
         {
@@ -32,43 +22,78 @@
         },
         {
             "location": "/commands/#stats",
-            "text": "View your own stats  dstats  View another player's stats  dstats @username",
-            "title": "Stats"
+            "text": "View your own stats  dstats  View another player's stats  dstats @player",
+            "title": "stats"
         },
         {
             "location": "/commands/#begin",
-            "text": "Create a new character  dbegin <class>  Note: classes can be found with  dclasses",
-            "title": "Begin"
+            "text": "Create a new character  dbegin <class>  Classes can be found with  dclasses",
+            "title": "begin"
         },
         {
             "location": "/commands/#classes",
             "text": "List available classes or get info about a starting class  dclass [class]",
-            "title": "Classes"
+            "title": "classes"
         },
         {
             "location": "/commands/#help",
             "text": "List commands or get help with a command  dhelp [command]",
-            "title": "Help"
+            "title": "help"
         },
         {
-            "location": "/commands/#item-management",
-            "text": "",
-            "title": "Item Management"
+            "location": "/commands/#inventory-management",
+            "text": "inv  View your inventory  dinv",
+            "title": "Inventory Management"
         },
         {
-            "location": "/commands/#inventory",
-            "text": "Aliases:  dinv  View your inventory  dinventory",
-            "title": "Inventory"
+            "location": "/commands/#item",
+            "text": "Get information about an item  ditem <item name>",
+            "title": "item"
+        },
+        {
+            "location": "/commands/#give",
+            "text": "Donate item to another player  dgive @player <item name> <#amount>  Donate gold to another player  dgive @player gold <#amount>",
+            "title": "give"
+        },
+        {
+            "location": "/commands/#use",
+            "text": "Use an item  duse <item name>",
+            "title": "use"
+        },
+        {
+            "location": "/commands/#equip",
+            "text": "Equip an item  dequip <item name>  Equip a weapon to your offhand slot  dequip <item name> offhand",
+            "title": "equip"
+        },
+        {
+            "location": "/commands/#unequip",
+            "text": "Unequip an item from a slot  unequip <armor|hat|belt|bracer|amulet|ring|weapon|offhand>",
+            "title": "unequip"
         },
         {
             "location": "/commands/#battle",
-            "text": "item\ngive\ninventory\nequip\nunequip  challenge\nattack\noffhand\nblock\nuse  marketnew\nmarketsearch \nmarketsell \nmarketstop   partyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
+            "text": "",
             "title": "Battle"
         },
         {
-            "location": "/commands/#admin",
-            "text": "lockdown\nwishcalc\ngrant\nrestart\nsetbotstatus\nsetrole",
-            "title": "Admin"
+            "location": "/commands/#challenge",
+            "text": "Challenge another player to a duel  dchallenge @player  Respond to a challenge  dchallenge <accept|decline>",
+            "title": "challenge"
+        },
+        {
+            "location": "/commands/#attack",
+            "text": "Attack using your weapon's default attack  dattack  Attack using a specific attack  dattack [attack name]",
+            "title": "attack"
+        },
+        {
+            "location": "/commands/#offhand",
+            "text": "Attack using your offhand weapon's default attack  doffhand  Attack using a specific offhand weapon attack  doffhand [attack name]",
+            "title": "offhand"
+        },
+        {
+            "location": "/commands/#block",
+            "text": "Block until you take another action  dblock  Note: Each weapon has a block amount, shields have the most   marketnew\nmarketsearch \nmarketsell \nmarketstop   partyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
+            "title": "block"
         }
     ]
 }

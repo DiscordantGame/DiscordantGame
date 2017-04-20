@@ -78,60 +78,118 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#general-commands">General Commands</a></li>
-            <li><a href="#stats">Stats</a></li>
-            <li><a href="#begin">Begin</a></li>
-            <li><a href="#classes">Classes</a></li>
-            <li><a href="#help">Help</a></li>
-        <li class="main "><a href="#item-management">Item Management</a></li>
-            <li><a href="#inventory">Inventory</a></li>
+            <li><a href="#stats">stats</a></li>
+            <li><a href="#begin">begin</a></li>
+            <li><a href="#classes">classes</a></li>
+            <li><a href="#help">help</a></li>
+        <li class="main "><a href="#inventory-management">Inventory Management</a></li>
+            <li><a href="#item">item</a></li>
+            <li><a href="#give">give</a></li>
+            <li><a href="#use">use</a></li>
+            <li><a href="#equip">equip</a></li>
+            <li><a href="#unequip">unequip</a></li>
         <li class="main "><a href="#battle">Battle</a></li>
-        <li class="main "><a href="#admin">Admin</a></li>
+            <li><a href="#challenge">challenge</a></li>
+            <li><a href="#attack">attack</a></li>
+            <li><a href="#offhand">offhand</a></li>
+            <li><a href="#block">block</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="general-commands">General Commands</h1>
-<h2 id="stats">Stats</h2>
+<h2 id="stats">stats</h2>
 <p>View your own stats</p>
 <pre><code>dstats
 </code></pre>
 <p>View another player's stats</p>
-<pre><code>dstats @username
+<pre><code>dstats @player
 </code></pre>
 <hr />
-<h2 id="begin">Begin</h2>
+<h2 id="begin">begin</h2>
 <p>Create a new character</p>
 <pre><code>dbegin &lt;class&gt;
 </code></pre>
-<p>Note: classes can be found with <code>dclasses</code></p>
+<p>Classes can be found with <code>dclasses</code></p>
 <hr />
-<h2 id="classes">Classes</h2>
+<h2 id="classes">classes</h2>
 <p>List available classes or get info about a starting class</p>
 <pre><code>dclass [class]
 </code></pre>
 <hr />
-<h2 id="help">Help</h2>
+<h2 id="help">help</h2>
 <p>List commands or get help with a command</p>
 <pre><code>dhelp [command]
 </code></pre>
 <hr />
-<h1 id="item-management">Item Management</h1>
-<h2 id="inventory">Inventory</h2>
-<p>Aliases: <em>dinv</em></p>
+<h1 id="inventory-management">Inventory Management</h1>
+<p>inv</p>
 <p>View your inventory</p>
-<pre><code>dinventory
+<pre><code>dinv
 </code></pre>
+<hr />
+<h2 id="item">item</h2>
+<p>Get information about an item</p>
+<pre><code>ditem &lt;item name&gt;
+</code></pre>
+<hr />
+<h2 id="give">give</h2>
+<p>Donate item to another player</p>
+<pre><code>dgive @player &lt;item name&gt; &lt;#amount&gt;
+</code></pre>
+<p>Donate gold to another player</p>
+<pre><code>dgive @player gold &lt;#amount&gt;
+</code></pre>
+<hr />
+<h2 id="use">use</h2>
+<p>Use an item</p>
+<pre><code>duse &lt;item name&gt;
+</code></pre>
+<hr />
+<h2 id="equip">equip</h2>
+<p>Equip an item</p>
+<pre><code>dequip &lt;item name&gt;
+</code></pre>
+<p>Equip a weapon to your offhand slot</p>
+<pre><code>dequip &lt;item name&gt; offhand
+</code></pre>
+<hr />
+<h2 id="unequip">unequip</h2>
+<p>Unequip an item from a slot</p>
+<pre><code>unequip &lt;armor|hat|belt|bracer|amulet|ring|weapon|offhand&gt;
+</code></pre>
+<hr />
 <h1 id="battle">Battle</h1>
-<p>item
-give
-inventory
-equip
-unequip</p>
-<p>challenge
-attack
-offhand
-block
-use</p>
+<h2 id="challenge">challenge</h2>
+<p>Challenge another player to a duel</p>
+<pre><code>dchallenge @player
+</code></pre>
+<p>Respond to a challenge</p>
+<pre><code>dchallenge &lt;accept|decline&gt;
+</code></pre>
+<hr />
+<h2 id="attack">attack</h2>
+<p>Attack using your weapon's default attack</p>
+<pre><code>dattack
+</code></pre>
+<p>Attack using a specific attack</p>
+<pre><code>dattack [attack name]
+</code></pre>
+<hr />
+<h2 id="offhand">offhand</h2>
+<p>Attack using your offhand weapon's default attack</p>
+<pre><code>doffhand
+</code></pre>
+<p>Attack using a specific offhand weapon attack</p>
+<pre><code>doffhand [attack name]
+</code></pre>
+<hr />
+<h2 id="block">block</h2>
+<p>Block until you take another action</p>
+<pre><code>dblock
+</code></pre>
+<p>Note: Each weapon has a block amount, shields have the most</p>
+<hr />
 <p>marketnew
 marketsearch 
 marketsell 
@@ -142,14 +200,7 @@ partydisband
 partyexplore
 partyinvite
 partymove
-partynew</p>
-<h1 id="admin">Admin</h1>
-<p>lockdown
-wishcalc
-grant
-restart
-setbotstatus
-setrole</p></div>
+partynew</p></div>
         </div>
 
         <footer class="col-md-12">
