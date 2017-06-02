@@ -30,6 +30,10 @@ To form a new exploration party (even if you want to explore alone)
 
     dpnew <name of your party>
 
+To invite someone else to join the party
+
+    dpinvite <@username>
+
 Once you have formed a party you can explore with
 
     dexplore
