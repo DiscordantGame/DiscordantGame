@@ -1,98 +1,128 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "Discordant\n\n\nIn progress",
+            "location": "/", 
+            "text": "Discordant\n\n\nDiscordant is a Discord-based bot that allows players to (solo or cooperatively) explore maps and battle monsters, as well as engage in a global market to earn gold\n\n\nRegistering\n\n\nTo register, type:\n\n\ndbegin \nclass\n\n\n\n\nYour choices for class are \nhealer\n and \nmercenary\n, for more information type \ndclasses\n\n\nBasic commands\n\n\nTo view your inventory, you can use \n\n\ndinv\n\n\n\nTo use an item, for example your healing vial you can use\n\n\nduse vial\n\n\n\nThere is also a global shop that sales basic items\n\n\ndshop\n\n\n\nForming a party\n\n\nTo form a new exploration party (even if you want to explore alone)\n\n\ndpnew \nname of your party\n\n\n\n\nOnce you have formed a party you can explore with\n\n\ndexplore\n\n\n\nExploring the map\n\n\nTo interact with your current location use\n\n\ndinteract (or di)\n\n\n\nNote:\n Tiles you can interact with have a message\n\n\n\n\nTo move around the map use\n\n\ndpmove \nU|D|L|R\n\n\n\n\nWARNING:\n Moving may cause a monster to attack!\n\n\nBattling\n\n\nBattles are turn-based:\n\n\n\n\n\n\nA monster opponent will attack the party\n\n\n\n\n\n\nEach person in the party can take one action\n\n\n\n\n\n\nActions: attack, use item, heal, run\n\n\n\n\n\n\nTo attack with your primary weapon use\n\n\ndattack (or da)\n\n\n\nTo attack with your offhand weapon\n\n\ndoffhand (or doff)\n\n\n\nNew healers have a tablet that can heal in their offhand, new mercenaries have a shield that passively decreases damage.\n\n\nSome attacks (like healing) require charges; to collect charges use\n\n\ndcharge (or dc)\n\n\n\nReturning to town\n\n\nWhen you are done adventuring, you can use \ndpdisband\n to return to town\n\n\nFor additional information on available commands use \ndhelp\n, \ndhelp \ncommandName\n or check out \nthe commands page", 
             "title": "Home"
-        },
+        }, 
         {
-            "location": "/#discordant",
-            "text": "In progress",
+            "location": "/#discordant", 
+            "text": "Discordant is a Discord-based bot that allows players to (solo or cooperatively) explore maps and battle monsters, as well as engage in a global market to earn gold", 
             "title": "Discordant"
-        },
+        }, 
         {
-            "location": "/commands/",
-            "text": "General Commands\n\n\nstats\n\n\nView your own stats\n\n\ndstats\n\n\n\nView another player's stats\n\n\ndstats @player\n\n\n\n\n\nbegin\n\n\nCreate a new character\n\n\ndbegin <class>\n\n\n\nClasses can be found with \ndclasses\n\n\n\n\nclasses\n\n\nList available classes or get info about a starting class\n\n\ndclass [class]\n\n\n\n\n\nhelp\n\n\nList commands or get help with a command\n\n\ndhelp [command]\n\n\n\n\n\nInventory Management\n\n\ninv\n\n\nView your inventory\n\n\ndinv\n\n\n\n\n\nitem\n\n\nGet information about an item\n\n\nditem <item name>\n\n\n\n\n\ngive\n\n\nDonate item to another player\n\n\ndgive @player <item name> <#amount>\n\n\n\nDonate gold to another player\n\n\ndgive @player gold <#amount>\n\n\n\n\n\nuse\n\n\nUse an item\n\n\nduse <item name>\n\n\n\n\n\nequip\n\n\nEquip an item\n\n\ndequip <item name>\n\n\n\nEquip a weapon to your offhand slot\n\n\ndequip <item name> offhand\n\n\n\n\n\nunequip\n\n\nUnequip an item from a slot\n\n\nunequip <armor|hat|belt|bracer|amulet|ring|weapon|offhand>\n\n\n\n\n\nBattle\n\n\nchallenge\n\n\nChallenge another player to a duel\n\n\ndchallenge @player\n\n\n\nRespond to a challenge\n\n\ndchallenge <accept|decline>\n\n\n\n\n\nattack\n\n\nAttack using your weapon's default attack\n\n\ndattack\n\n\n\nAttack using a specific attack\n\n\ndattack [attack name]\n\n\n\n\n\noffhand\n\n\nAttack using your offhand weapon's default attack\n\n\ndoffhand\n\n\n\nAttack using a specific offhand weapon attack\n\n\ndoffhand [attack name]\n\n\n\n\n\nblock\n\n\nBlock until you take another action\n\n\ndblock\n\n\n\nNote: Each weapon has a block amount, shields have the most\n\n\n\n\nmarketnew\nmarketsearch \nmarketsell \nmarketstop \n\n\npartyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
+            "location": "/#registering", 
+            "text": "To register, type:  dbegin  class   Your choices for class are  healer  and  mercenary , for more information type  dclasses", 
+            "title": "Registering"
+        }, 
+        {
+            "location": "/#basic-commands", 
+            "text": "To view your inventory, you can use   dinv  To use an item, for example your healing vial you can use  duse vial  There is also a global shop that sales basic items  dshop", 
+            "title": "Basic commands"
+        }, 
+        {
+            "location": "/#forming-a-party", 
+            "text": "To form a new exploration party (even if you want to explore alone)  dpnew  name of your party   Once you have formed a party you can explore with  dexplore", 
+            "title": "Forming a party"
+        }, 
+        {
+            "location": "/#exploring-the-map", 
+            "text": "To interact with your current location use  dinteract (or di)  Note:  Tiles you can interact with have a message   To move around the map use  dpmove  U|D|L|R   WARNING:  Moving may cause a monster to attack!", 
+            "title": "Exploring the map"
+        }, 
+        {
+            "location": "/#battling", 
+            "text": "Battles are turn-based:    A monster opponent will attack the party    Each person in the party can take one action    Actions: attack, use item, heal, run    To attack with your primary weapon use  dattack (or da)  To attack with your offhand weapon  doffhand (or doff)  New healers have a tablet that can heal in their offhand, new mercenaries have a shield that passively decreases damage.  Some attacks (like healing) require charges; to collect charges use  dcharge (or dc)", 
+            "title": "Battling"
+        }, 
+        {
+            "location": "/#returning-to-town", 
+            "text": "When you are done adventuring, you can use  dpdisband  to return to town  For additional information on available commands use  dhelp ,  dhelp  commandName  or check out  the commands page", 
+            "title": "Returning to town"
+        }, 
+        {
+            "location": "/commands/", 
+            "text": "General Commands\n\n\nstats\n\n\nView your own stats\n\n\ndstats\n\n\n\nView another player's stats\n\n\ndstats @player\n\n\n\n\n\nbegin\n\n\nCreate a new character\n\n\ndbegin \nclass\n\n\n\n\nClasses can be found with \ndclasses\n\n\n\n\nclasses\n\n\nList available classes or get info about a starting class\n\n\ndclass [class]\n\n\n\n\n\nhelp\n\n\nList commands or get help with a command\n\n\ndhelp [command]\n\n\n\n\n\nInventory Management\n\n\ninv\n\n\nView your inventory\n\n\ndinv\n\n\n\n\n\nitem\n\n\nGet information about an item\n\n\nditem \nitem name\n\n\n\n\n\n\ngive\n\n\nDonate item to another player\n\n\ndgive @player \nitem name\n \n#amount\n\n\n\n\nDonate gold to another player\n\n\ndgive @player gold \n#amount\n\n\n\n\n\n\nuse\n\n\nUse an item\n\n\nduse \nitem name\n\n\n\n\n\n\nequip\n\n\nEquip an item\n\n\ndequip \nitem name\n\n\n\n\nEquip a weapon to your offhand slot\n\n\ndequip \nitem name\n offhand\n\n\n\n\n\nunequip\n\n\nUnequip an item from a slot\n\n\nunequip \narmor|hat|belt|bracer|amulet|ring|weapon|offhand\n\n\n\n\n\n\nBattle\n\n\nchallenge\n\n\nChallenge another player to a duel\n\n\ndchallenge @player\n\n\n\nRespond to a challenge\n\n\ndchallenge \naccept|decline\n\n\n\n\n\n\nattack\n\n\nAttack using your weapon's default attack\n\n\ndattack\n\n\n\nAttack using a specific attack\n\n\ndattack [attack name]\n\n\n\n\n\noffhand\n\n\nAttack using your offhand weapon's default attack\n\n\ndoffhand\n\n\n\nAttack using a specific offhand weapon attack\n\n\ndoffhand [attack name]\n\n\n\n\n\nblock\n\n\nBlock until you take another action\n\n\ndblock\n\n\n\nNote: Each weapon has a block amount, shields have the most\n\n\n\n\nmarketnew\nmarketsearch \nmarketsell \nmarketstop \n\n\npartyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew", 
             "title": "Commands"
-        },
+        }, 
         {
-            "location": "/commands/#general-commands",
-            "text": "",
+            "location": "/commands/#general-commands", 
+            "text": "", 
             "title": "General Commands"
-        },
+        }, 
         {
-            "location": "/commands/#stats",
-            "text": "View your own stats  dstats  View another player's stats  dstats @player",
+            "location": "/commands/#stats", 
+            "text": "View your own stats  dstats  View another player's stats  dstats @player", 
             "title": "stats"
-        },
+        }, 
         {
-            "location": "/commands/#begin",
-            "text": "Create a new character  dbegin <class>  Classes can be found with  dclasses",
+            "location": "/commands/#begin", 
+            "text": "Create a new character  dbegin  class   Classes can be found with  dclasses", 
             "title": "begin"
-        },
+        }, 
         {
-            "location": "/commands/#classes",
-            "text": "List available classes or get info about a starting class  dclass [class]",
+            "location": "/commands/#classes", 
+            "text": "List available classes or get info about a starting class  dclass [class]", 
             "title": "classes"
-        },
+        }, 
         {
-            "location": "/commands/#help",
-            "text": "List commands or get help with a command  dhelp [command]",
+            "location": "/commands/#help", 
+            "text": "List commands or get help with a command  dhelp [command]", 
             "title": "help"
-        },
+        }, 
         {
-            "location": "/commands/#inventory-management",
-            "text": "inv  View your inventory  dinv",
+            "location": "/commands/#inventory-management", 
+            "text": "inv  View your inventory  dinv", 
             "title": "Inventory Management"
-        },
+        }, 
         {
-            "location": "/commands/#item",
-            "text": "Get information about an item  ditem <item name>",
+            "location": "/commands/#item", 
+            "text": "Get information about an item  ditem  item name", 
             "title": "item"
-        },
+        }, 
         {
-            "location": "/commands/#give",
-            "text": "Donate item to another player  dgive @player <item name> <#amount>  Donate gold to another player  dgive @player gold <#amount>",
+            "location": "/commands/#give", 
+            "text": "Donate item to another player  dgive @player  item name   #amount   Donate gold to another player  dgive @player gold  #amount", 
             "title": "give"
-        },
+        }, 
         {
-            "location": "/commands/#use",
-            "text": "Use an item  duse <item name>",
+            "location": "/commands/#use", 
+            "text": "Use an item  duse  item name", 
             "title": "use"
-        },
+        }, 
         {
-            "location": "/commands/#equip",
-            "text": "Equip an item  dequip <item name>  Equip a weapon to your offhand slot  dequip <item name> offhand",
+            "location": "/commands/#equip", 
+            "text": "Equip an item  dequip  item name   Equip a weapon to your offhand slot  dequip  item name  offhand", 
             "title": "equip"
-        },
+        }, 
         {
-            "location": "/commands/#unequip",
-            "text": "Unequip an item from a slot  unequip <armor|hat|belt|bracer|amulet|ring|weapon|offhand>",
+            "location": "/commands/#unequip", 
+            "text": "Unequip an item from a slot  unequip  armor|hat|belt|bracer|amulet|ring|weapon|offhand", 
             "title": "unequip"
-        },
+        }, 
         {
-            "location": "/commands/#battle",
-            "text": "",
+            "location": "/commands/#battle", 
+            "text": "", 
             "title": "Battle"
-        },
+        }, 
         {
-            "location": "/commands/#challenge",
-            "text": "Challenge another player to a duel  dchallenge @player  Respond to a challenge  dchallenge <accept|decline>",
+            "location": "/commands/#challenge", 
+            "text": "Challenge another player to a duel  dchallenge @player  Respond to a challenge  dchallenge  accept|decline", 
             "title": "challenge"
-        },
+        }, 
         {
-            "location": "/commands/#attack",
-            "text": "Attack using your weapon's default attack  dattack  Attack using a specific attack  dattack [attack name]",
+            "location": "/commands/#attack", 
+            "text": "Attack using your weapon's default attack  dattack  Attack using a specific attack  dattack [attack name]", 
             "title": "attack"
-        },
+        }, 
         {
-            "location": "/commands/#offhand",
-            "text": "Attack using your offhand weapon's default attack  doffhand  Attack using a specific offhand weapon attack  doffhand [attack name]",
+            "location": "/commands/#offhand", 
+            "text": "Attack using your offhand weapon's default attack  doffhand  Attack using a specific offhand weapon attack  doffhand [attack name]", 
             "title": "offhand"
-        },
+        }, 
         {
-            "location": "/commands/#block",
-            "text": "Block until you take another action  dblock  Note: Each weapon has a block amount, shields have the most   marketnew\nmarketsearch \nmarketsell \nmarketstop   partyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew",
+            "location": "/commands/#block", 
+            "text": "Block until you take another action  dblock  Note: Each weapon has a block amount, shields have the most   marketnew\nmarketsearch \nmarketsell \nmarketstop   partyaccept\npartydecline\npartydisband\npartyexplore\npartyinvite\npartymove\npartynew", 
             "title": "block"
         }
     ]

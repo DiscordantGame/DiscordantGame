@@ -78,12 +78,76 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#discordant">Discordant</a></li>
+            <li><a href="#registering">Registering</a></li>
+            <li><a href="#basic-commands">Basic commands</a></li>
+            <li><a href="#forming-a-party">Forming a party</a></li>
+            <li><a href="#exploring-the-map">Exploring the map</a></li>
+            <li><a href="#battling">Battling</a></li>
+            <li><a href="#returning-to-town">Returning to town</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="discordant">Discordant</h1>
-<p>In progress</p></div>
+<p>Discordant is a Discord-based bot that allows players to (solo or cooperatively) explore maps and battle monsters, as well as engage in a global market to earn gold</p>
+<h2 id="registering">Registering</h2>
+<p>To register, type:</p>
+<pre><code>dbegin &lt;class&gt;
+</code></pre>
+<p>Your choices for class are <code>healer</code> and <code>mercenary</code>, for more information type <code>dclasses</code></p>
+<h2 id="basic-commands">Basic commands</h2>
+<p>To view your inventory, you can use </p>
+<pre><code>dinv
+</code></pre>
+<p>To use an item, for example your healing vial you can use</p>
+<pre><code>duse vial
+</code></pre>
+<p>There is also a global shop that sales basic items</p>
+<pre><code>dshop
+</code></pre>
+<h2 id="forming-a-party">Forming a party</h2>
+<p>To form a new exploration party (even if you want to explore alone)</p>
+<pre><code>dpnew &lt;name of your party&gt;
+</code></pre>
+<p>Once you have formed a party you can explore with</p>
+<pre><code>dexplore
+</code></pre>
+<h2 id="exploring-the-map">Exploring the map</h2>
+<p>To interact with your current location use</p>
+<pre><code>dinteract (or di)
+</code></pre>
+<p><span style="color:blue">Note:</span> Tiles you can interact with have a message</p>
+<hr />
+<p>To move around the map use</p>
+<pre><code>dpmove &lt;U|D|L|R&gt;
+</code></pre>
+<p><span style="color:red">WARNING:</span> Moving may cause a monster to attack!</p>
+<h2 id="battling">Battling</h2>
+<p>Battles are turn-based:</p>
+<ul>
+<li>
+<p>A monster opponent will attack the party</p>
+</li>
+<li>
+<p>Each person in the party can take one action</p>
+</li>
+<li>
+<p>Actions: attack, use item, heal, run</p>
+</li>
+</ul>
+<p>To attack with your primary weapon use</p>
+<pre><code>dattack (or da)
+</code></pre>
+<p>To attack with your offhand weapon</p>
+<pre><code>doffhand (or doff)
+</code></pre>
+<p>New healers have a tablet that can heal in their offhand, new mercenaries have a shield that passively decreases damage.</p>
+<p>Some attacks (like healing) require charges; to collect charges use</p>
+<pre><code>dcharge (or dc)
+</code></pre>
+<h2 id="returning-to-town">Returning to town</h2>
+<p>When you are done adventuring, you can use <code>dpdisband</code> to return to town</p>
+<p>For additional information on available commands use <code>dhelp</code>, <code>dhelp &lt;commandName&gt;</code> or check out <a href="commands/">the commands page</a></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -122,5 +186,5 @@
 
 <!--
 MkDocs version : 0.16.3
-Build Date UTC : 2017-04-20 22:06:26
+Build Date UTC : 2017-06-02 02:52:12
 -->
